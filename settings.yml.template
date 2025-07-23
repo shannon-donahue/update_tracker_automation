@@ -1,0 +1,15 @@
+email:
+  recipients:
+    - '<recipient_email>@openshiftusgov.com'
+  sender: "<sender_email_name>@openshiftusgov.com"
+  host: 'smtp.gmail.com'
+  port: 465
+  login:
+    user: '<user_name>'
+    password: '<user_password>'
+
+google_api:
+  secret_file: "<user_home_dir>/.google_api_creds.json"
+  token_file: "<user_home_dir>/.google_api_token.json"
+  folder_name: "TEST"
+

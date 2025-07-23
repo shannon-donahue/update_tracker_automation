@@ -1,0 +1,62 @@
+phase_title:
+  column_values: ["Risk", "Linked Deployment", "App/Service", 
+                 "IMAGE","DIFF REPORT IMAGE TAG", "ENGINEER", "QE", 
+                 "Forked State?", "SC Branch Updated?", "SC IMAGE", "Insights Config Ref", "Deployed In FR Int?",
+                 "Deployed in FR Stage?", "IQE Stage Tested?", "Manual UI Testing Stage?",
+                 "CCB Approved/ SC Branch Updated?", "Deployed In FR Prod?\n(Use SC Image Tags)",
+                 "Manual UI Testing Prod"]
+  phases:
+  - phase_one:
+    title: "Phase One"
+    range: "Sheet1!A5:R5"
+    cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 4,
+        'endColumnIndex':18,
+        'endRowIndex': 5
+    }
+    column_range: "Sheet1!A6:R6"
+    column_cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 5,
+        'endColumnIndex':18,
+        'endRowIndex': 6
+    }
+  - phase_two:
+    title: "Phase Two"
+    range: "Sheet1!A20:R20"
+    cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 19,
+        'endColumnIndex':18,
+        'endRowIndex': 20
+    }
+    column_range: "Sheet1!A21:R21"
+    column_cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 20,
+        'endColumnIndex':18,
+        'endRowIndex': 21
+    }
+  - phase_three:
+    title: "Phase Three"
+    range: "Sheet1!A39:R39"
+    cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 38,
+        'endColumnIndex':18,
+        'endRowIndex': 39
+    }
+    column_range: "Sheet1!A40:R40"
+    column_cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 39,
+        'endColumnIndex':18,
+        'endRowIndex': 40
+    }

@@ -1,0 +1,19 @@
+app:
+  application_name: 'Name of overarching service'
+  phase: 'phase_num'
+  app_range: "Sheet{}!{}:{}" 
+  risk: ""
+  linked: ""
+  cell_range:
+    sheet_id: 0
+    startColumnIndex: 0
+    startRowIndex: 0
+    endColumnIndex: 0
+    endRowIndex: 0
+  merge_range:  # if there is more than one service for the application
+    sheet_id: 0
+    startColumnIndex: 0
+    startRowIndex: 0
+    endColumnIndex: 0
+    endRowIndex: 0
+  services: []

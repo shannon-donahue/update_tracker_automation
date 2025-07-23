@@ -1,0 +1,76 @@
+title:
+  range: "Sheet1!A1:R2"
+  value: ['Tenant Sync Report ({}/{}/{}) : <DIFF_REPORT_ULR>']
+  cell_range: {
+            'sheetId': 0,
+            'startColumnIndex': 0,
+            'startRowIndex': 0,
+            'endColumnIndex':18,
+            'endRowIndex': 2
+          }
+
+legend:
+  range: "Sheet1!A3:R3"
+  value: ["🟩 - Low Risk - Updates are easy, and updates typically work out of the box.\n\n
+          🟨 - Medium Risk - Updates are normally easy, but can impact other services if there is a falure.\n\n
+          🟥 - High Risk - Updates need to be handled with care, and impact other services if there is a falure.\n\n
+          ☠️ - Critical Risk - Updates often break the service, and stop functionally of other App/Services.\n\n
+          🔸/🔹 - Services are highly dependent on each other, and updates should be deployed at the same time."]
+  cell_range: {
+            'sheetId': 0,
+            'startColumnIndex': 0,
+            'startRowIndex': 2,
+            'endColumnIndex':18,
+            'endRowIndex': 3
+          }
+
+steps:
+  range: "Sheet1!A4:R4"
+  value: [
+    "", "", "", "", "", "Step 1:  Assignment", "", "Step 2:  Update SC Branch & Generate SC Image", 
+    "", "", "Step 3:  Update Deployment Configs", "Step 4:  Update INT & STAGE", "", "Step 5:  INT & STAGE Testing", 
+    "", "Step 6:  CCB Approval", "Step 7:  Update PROD", "Step 8:  PROD Testing" 
+    ]
+  cell_range: {
+            'sheetId': 0,
+            'startColumnIndex': 0,
+            'startRowIndex': 3,
+            'endColumnIndex':18,
+            'endRowIndex': 4
+          }
+  merge_ranges:
+  - merge_range: {
+            'sheetId': 0,
+            'startColumnIndex': 0,
+            'startRowIndex': 3,
+            'endColumnIndex':5,
+            'endRowIndex': 4
+          }
+  - merge_range: {
+            'sheetId': 0,
+            'startColumnIndex': 5,
+            'startRowIndex': 3,
+            'endColumnIndex':7,
+            'endRowIndex': 4
+          }
+  - merge_range: {
+            'sheetId': 0,
+            'startColumnIndex': 7,
+            'startRowIndex': 3,
+            'endColumnIndex': 10,
+            'endRowIndex': 4
+          }
+  - merge_range: {
+            'sheetId': 0,
+            'startColumnIndex': 11,
+            'startRowIndex': 3,
+            'endColumnIndex':13,
+            'endRowIndex': 4
+          }
+  - merge_range: {
+            'sheetId': 0,
+            'startColumnIndex': 13,
+            'startRowIndex': 3,
+            'endColumnIndex':15,
+            'endRowIndex': 4
+          }
