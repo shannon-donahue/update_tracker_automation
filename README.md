@@ -35,7 +35,7 @@ cp settings.yml.template settings.yml
 ```
 
 #### Services
-1. Add directory `services` needs to the project's main directory
+1. Add a directory called `services` to the project's main directory
 2. follow `service.yml.template` for formatting service definitition files.
     - This ensures your service configurations are correctly parsed and utilized by the application.
 
