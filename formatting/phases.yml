@@ -26,37 +26,37 @@ phase_title:
     }
   - phase_two:
     title: "Phase Two"
-    range: "Sheet1!A20:R20"
+    range: "Sheet1!A21:R21"
     cell_range: {
-        'sheetId': 0,
-        'startColumnIndex': 0,
-        'startRowIndex': 19,
-        'endColumnIndex':18,
-        'endRowIndex': 20
-    }
-    column_range: "Sheet1!A21:R21"
-    column_cell_range: {
         'sheetId': 0,
         'startColumnIndex': 0,
         'startRowIndex': 20,
         'endColumnIndex':18,
         'endRowIndex': 21
     }
-  - phase_three:
-    title: "Phase Three"
-    range: "Sheet1!A39:R39"
-    cell_range: {
+    column_range: "Sheet1!A22:R22"
+    column_cell_range: {
         'sheetId': 0,
         'startColumnIndex': 0,
-        'startRowIndex': 38,
+        'startRowIndex': 21,
         'endColumnIndex':18,
-        'endRowIndex': 39
+        'endRowIndex': 22
     }
-    column_range: "Sheet1!A40:R40"
-    column_cell_range: {
+  - phase_three:
+    title: "Phase Three"
+    range: "Sheet1!A40:R40"
+    cell_range: {
         'sheetId': 0,
         'startColumnIndex': 0,
         'startRowIndex': 39,
         'endColumnIndex':18,
         'endRowIndex': 40
+    }
+    column_range: "Sheet1!A41:R41"
+    column_cell_range: {
+        'sheetId': 0,
+        'startColumnIndex': 0,
+        'startRowIndex': 40,
+        'endColumnIndex':18,
+        'endRowIndex': 41
     }

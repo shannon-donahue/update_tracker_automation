@@ -83,13 +83,16 @@ class GoogleSheet:
                 "new_sc_image_tag": "Reroll Image Job",
                 "config_file_status": "No Changes"
             }
-        elif current_service in ["frontend-starter-app", "mbop", "cyndi-operator", "amq-streams/strimzi-rhel8-operator", "insights-kafka-connect"]:
+        elif current_service in ["frontend-starter-app", "mbop", "cyndi-operator", 
+                                    "amq-streams/strimzi-rhel8-operator", "insights-kafka-connect", 
+                                    "payload-tracker-frontend", "insights-advisor-backend",
+                                    "insights-dashboard","chrome-service-frontend"]:
             image_values = {
                 "commercial_hash": "Check deployment",
                 "new_sc_image_tag": "Update Image Tag",
                 "config_file_status": "Check Configs"
             }
-        elif current_service == "caddy-ubi":
+        elif current_service in ["caddy-ubi", "unleash-proxy"]:
             image_values = {
                 "commercial_hash": "N/A",
                 "new_sc_image_tag": "N/A",
