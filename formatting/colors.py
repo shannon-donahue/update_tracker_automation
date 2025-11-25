@@ -127,3 +127,9 @@ DROPDOWN_LIGHT_PURPLE = {
     "green": 1.0000,
     "blue": 0.7529,
 }
+
+DROPDOWN_DARK_ORANGE = {
+    "red": 0.933,
+    "green": 0.804,
+    "blue": 0.675,
+}
