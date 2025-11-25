@@ -9,21 +9,21 @@ ENGINEER = {
         'startColumnIndex': 5,
         'startRowIndex': 6,
         'endColumnIndex': 6,
-        'endRowIndex': 20
+        'endRowIndex': 22
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': 5,
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': 6,
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': 5,
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': 6,
-        'endRowIndex': 71
+        'endRowIndex': 73
     },
     "colors":{
         "---": DROPDOWN_GREY, 
@@ -49,21 +49,21 @@ QE = {
         'startColumnIndex': 6,
         'startRowIndex': 6,
         'endColumnIndex': 7,
-        'endRowIndex': 20
+        'endRowIndex': 22
     },
     "phase_two": {
         'sheetId': 0,
-        'startRowIndex': 22,
-        'endRowIndex': 39,
+        'startRowIndex': 24,
+        'endRowIndex': 41,
         'startColumnIndex': 6,
         'endColumnIndex': 7
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': 6,
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': 7,
-        'endRowIndex': 71
+        'endRowIndex': 73
     },
     "colors": {
         "---": DROPDOWN_GREY,
@@ -80,21 +80,21 @@ FORKED = {
         'startColumnIndex': 7,
         'startRowIndex': 6,
         'endColumnIndex': 8,
-        'endRowIndex': 20,
+        'endRowIndex': 22,
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': 7,
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': 8,
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': 7,
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': 8,
-        'endRowIndex': 71
+        'endRowIndex': 73
     },
     "colors": {
         "yes": DROPDOWN_SALMON,
@@ -110,21 +110,21 @@ SC_UPDATED = {
         'startColumnIndex': 8,
         'startRowIndex': 6,
         'endColumnIndex': 9,
-        'endRowIndex': 20,
+        'endRowIndex': 22,
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': 8,
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': 9,
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': 8,
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': 9,
-        'endRowIndex': 71
+        'endRowIndex': 73
     }, 
     "colors": {
         "Yes": DROPDOWN_GREEN,
@@ -141,21 +141,21 @@ DEPLOYED = {
         'startColumnIndex': [11,12, 16],
         'startRowIndex': 6,
         'endColumnIndex': [12, 13,17],
-        'endRowIndex': 20
+        'endRowIndex': 22
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': [11,12, 16],
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': [12, 13,17],
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': [11,12, 16],
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': [12, 13,17],
-        'endRowIndex': 71
+        'endRowIndex': 73
     },
     "colors": {
         "Not Started": DROPDOWN_SALMON, 
@@ -174,21 +174,21 @@ IQETESTED = {
         'startColumnIndex': 13,
         'startRowIndex': 6,
         'endColumnIndex': 14,
-        'endRowIndex': 20
+        'endRowIndex': 22
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': 13,
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': 14,
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': 13,
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': 14,
-        'endRowIndex': 71
+        'endRowIndex': 73
     }, 
     "colors": {
         "N/A": DROPDOWN_GREY_BLUE, 
@@ -206,21 +206,21 @@ UITESTED = {
         'startColumnIndex': [14, 17],
         'startRowIndex': 6,
         'endColumnIndex': [15, 18],
-        'endRowIndex': 20
+        'endRowIndex': 22
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': [14, 17],
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': [15, 18],
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': [14, 17],
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': [15, 18],
-        'endRowIndex': 71
+        'endRowIndex': 73
     },
     "colors": {
         "N/A": DROPDOWN_GREY_BLUE, 
@@ -240,21 +240,21 @@ CCB = {
         'startColumnIndex': 15,
         'startRowIndex': 6,
         'endColumnIndex': 16,
-        'endRowIndex': 20
+        'endRowIndex': 22
     },
     "phase_two": {
         'sheetId': 0,
         'startColumnIndex': 15,
-        'startRowIndex': 22,
+        'startRowIndex': 24,
         'endColumnIndex': 16,
-        'endRowIndex': 39
+        'endRowIndex': 41
     },
     "phase_three": {
         'sheetId': 0,
         'startColumnIndex': 15,
-        'startRowIndex': 41,
+        'startRowIndex': 43,
         'endColumnIndex': 16,
-        'endRowIndex': 71
+        'endRowIndex': 73
     },
     "colors": {
         "Awaiting CCB Approval": DROPDOWN_YELLOW, 
