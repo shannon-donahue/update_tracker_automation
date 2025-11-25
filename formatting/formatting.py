@@ -181,7 +181,7 @@ class Formatter:
 
         if service_data["application_name"] in ["Cyndi", "Insights-Kafka"]:
             requests.append(self.background_color(cell_range, colors.LIGHT_RED))
-        elif service_data["application_name"] in ["Caddy", "Unleash"]:
+        elif service_data["application_name"] in ["Caddy", "Unleash", "Keycloak"]:
             requests.append(self.background_color(cell_range, colors.CYAN))
         else:
             requests.append(self.background_color(cell_range, PHASE_COLORS[phase]['column_color']))

@@ -92,7 +92,7 @@ class GoogleSheet:
                 "new_sc_image_tag": "Update Image Tag",
                 "config_file_status": "Check Configs"
             }
-        elif current_service in ["caddy-ubi", "unleash-proxy"]:
+        elif current_service in ["caddy-ubi", "unleash-proxy", "keycloak", "keycloak-user-service"]:
             image_values = {
                 "commercial_hash": "N/A",
                 "new_sc_image_tag": "N/A",
